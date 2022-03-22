@@ -1,0 +1,14 @@
+﻿CREATE Table Item(
+Id int identity(10,5) Not Null primary key,
+ItemName nvarchar(30) not null,
+ItemStatus nvarchar(10) not null,
+ItemColour int not null
+)
+
+
+insert into Item (ItemName, ItemStatus, ItemColour) values ('D3.01', 'ToDo', 1)
+insert into Item (ItemName, ItemStatus, ItemColour) values ('D3.02', 'Doing', 0)
+insert into Item (ItemName, ItemStatus, ItemColour) values ('D3.03', 'Done', 2)
+insert into Item (ItemName, ItemStatus, ItemColour) values ('D3.04', 'Done', 3)
+insert into Item (ItemName, ItemStatus, ItemColour) values ('D3.05', 'ToDo', 2)
+insert into Item (ItemName, ItemStatus, ItemColour) values ('D3.06', 'Doing', 0)
